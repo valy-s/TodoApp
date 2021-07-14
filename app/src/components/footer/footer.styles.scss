@@ -1,0 +1,43 @@
+$veryDarkBlue: hsl(235, 21%, 11%);
+$veryDarkDesaturatedBlue: hsl(235, 24%, 19%);
+$lightGrayishBlue: hsl(234, 39%, 85%);
+$lightGrayishBlue: hsl(236, 33%, 92%); /*(hover) */
+$darkGrayishBlue: hsl(234, 11%, 52%);
+$veryDarkGrayishBlue: hsl(233, 14%, 35%);
+$veryDarkGrayishBlue2: hsl(237, 14%, 26%);
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 0 1em;
+  background-color: $veryDarkDesaturatedBlue;
+  border-radius: 2px;
+  box-shadow: 5px 5px 5px 5px #535252;
+}
+
+.item__desc {
+  color: $lightGrayishBlue;
+}
+
+.buttons__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__button {
+  background: none;
+  border: none;
+  cursor: pointer;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.active {
+  color: aqua;
+}

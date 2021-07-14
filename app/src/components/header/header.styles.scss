@@ -1,0 +1,16 @@
+$brightBlue: hsl(220, 98%, 61%);
+$veryDarkBlue: hsl(235, 21%, 11%);
+$veryDarkDesaturatedBlue: hsl(235, 24%, 19%);
+
+.header__container {
+    position: relative;
+}
+
+.header__title {
+    position: absolute;
+    top: 1rem;
+    left: calc((100% - 15rem) / 2);
+    font-size: 3rem;
+    font-weight: 900;
+    color: $brightBlue;
+}

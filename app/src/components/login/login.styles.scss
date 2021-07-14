@@ -1,0 +1,15 @@
+$brightBlue: hsl(220, 98%, 61%);
+$checkBackground: linear-gradient(
+  45deg,
+  hsl(192, 100%, 67%),
+  hsl(280, 87%, 65%)
+);
+
+.page__container {
+  width: 100vw;
+  height: 100vh;
+  background: $checkBackground;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
